@@ -1,0 +1,23 @@
+.sidebar {
+  svg {
+    height: auto;
+  }
+  .home {
+    width: 20px;
+  }
+  .calendar {
+    width: 18px;
+  }
+  .list {
+    width: 19px;
+  }
+  .btn {
+    padding: 8px 6x;
+  }
+  .btn:hover {
+    background-color: #a5e5e2;
+    path {
+      fill: #fff;
+    }
+  }
+}
