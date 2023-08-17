@@ -1,3 +1,3 @@
-export default function ScheduleList() {
+export function ScheduleList() {
   return <div>ScheduleList</div>;
 }

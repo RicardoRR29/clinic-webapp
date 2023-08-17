@@ -2,11 +2,24 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  transition: all 0.2s;
 }
 
+body {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  flex-direction: column;
+}
 .app {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 100%;
+  max-height: 100vh;
   overflow: hidden;
+}
+
+.app-body {
+  display: flex;
+  height: calc(100vh - 48px);
 }

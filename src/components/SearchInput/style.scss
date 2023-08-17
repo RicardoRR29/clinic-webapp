@@ -1,0 +1,9 @@
+.search-input {
+  position: relative;
+  .icon {
+    position: absolute;
+    right: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}

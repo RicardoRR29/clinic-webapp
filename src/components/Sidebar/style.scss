@@ -5,7 +5,7 @@
   .home {
     width: 20px;
   }
-  .calendar {
+  .calendar-icon {
     width: 18px;
   }
   .list {
@@ -13,11 +13,12 @@
   }
   .btn {
     padding: 8px 6x;
+    &.active {
+      border: none;
+      background-color: #a5e5e2;
+    }
   }
   .btn:hover {
     background-color: #a5e5e2;
-    path {
-      fill: #fff;
-    }
   }
 }

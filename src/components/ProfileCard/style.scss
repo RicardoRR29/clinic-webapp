@@ -1,0 +1,26 @@
+.profile-card {
+  display: flex;
+  background-color: rgb(230, 230, 230);
+  padding: 5px;
+  .profile-img {
+    margin-right: 16px;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    overflow: hidden;
+
+    img {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%) scale(1.1);
+      width: auto;
+      height: 100%;
+    }
+  }
+  .title {
+    font-weight: bold;
+    letter-spacing: 0.6px;
+  }
+}

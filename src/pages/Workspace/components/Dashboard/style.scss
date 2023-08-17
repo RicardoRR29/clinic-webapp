@@ -1,0 +1,21 @@
+.dashboard-grid {
+  display: grid;
+  grid-template-areas:
+    "first second"
+    "first third";
+  gap: 16px;
+  height: 30vh;
+
+  .first-area {
+    grid-area: first;
+    background-color: gray;
+  }
+  .second-area {
+    background-color: gray;
+    grid-area: second;
+  }
+  .third-area {
+    background-color: gray;
+    grid-area: third;
+  }
+}
